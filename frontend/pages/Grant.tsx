@@ -2,6 +2,7 @@ import { Box, Button, Center, Spacer, Stack, Text } from "@chakra-ui/react";
 import { FC } from "react";
 import { Loan } from "../Models/Loan";
 import styles from "../pages/Home.module.css";
+import AppBar from "./AppBar";
 
 export interface CardProps {
   movie: Loan;
